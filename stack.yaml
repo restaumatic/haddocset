@@ -1,12 +1,13 @@
-resolver: lts-12.0
+
+resolver: lts-13.30
 packages:
   - '.'
-
+allow-newer: true
 
 extra-deps:
-- haddock-api-2.20.0
-- haddock-library-1.6.0
-
+# - haddock-api-2.20.0
+- haddock-api-2.21.0
+# - haddock-library-1.6.0
 
 
 
